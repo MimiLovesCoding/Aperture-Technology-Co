@@ -76,9 +76,7 @@
         }
 		
 	.step-text a: hover {  
-            color: gold;
 	    text-decoration: underline;
-            font-size: 141%;
         }
 
         .content {
