@@ -12,8 +12,9 @@
         .main-container {
             height: 100%;
             width: 100%;
-            background-color: #1d539d;
-            color: white;
+            /*background-color: #c0d68c;*/
+            background: linear-gradient(to bottom, #ffff99 0%, #33ccff 100%);
+            /*color: white;*/
             padding-top: 6%;
             box-sizing: border-box;
             overflow-y: auto;
@@ -59,6 +60,8 @@
             margin: 7px 0px;
             font-size: 15px;
             line-height: 21px;
+            padding: 10px;
+            
         }
 
         .step-icon {
@@ -67,14 +70,15 @@
             margin-right: 10px;
         }
 		
-		.step-text a {
+	.step-text a {  
             color: white;
-			text-decoration: none;
+	    text-decoration: none;
         }
 		
-		.step-text a:hover {
-            color: white;
-			text-decoration:underline;
+	.step-text a: hover {  
+            color: goldenrod;
+	    text-decoration: underline;
+            font-size: 141%;
         }
 
         .content {
